@@ -49,10 +49,11 @@ matrix:
         TOOLCHAIN=android-ndk-r16b-api-24-arm64-v8a-clang-libcxx14
         PROJECT_DIR=examples/thrift
 
-    - os: linux
-      env: >
-        TOOLCHAIN=analyze-cxx17
-        PROJECT_DIR=examples/thrift
+    # FIXME: https://travis-ci.org/isaachier/hunter/builds/372820536
+    # - os: linux
+    #   env: >
+    #     TOOLCHAIN=analyze-cxx17
+    #     PROJECT_DIR=examples/thrift
 
     - os: linux
       env: >
